@@ -1,0 +1,15 @@
+1. Inicio
+	Repetir
+	Caminar
+	Caminar
+	Si hay camino derecha
+	Girar_Derecha
+
+2. Inicio
+	Caminar hacia abajo
+	Repetir
+	Caminar
+	Si hay camino adelante
+	Girar_Derecha
+	Sino
+	Caminar
