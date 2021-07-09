@@ -1,0 +1,89 @@
+Proceso Ejercicio_3
+	
+	Definir fecha, mes, año Como Entero;
+	
+	Escribir "Ingresar N° de día: ";
+	Leer fecha;
+	Escribir "Ingresar N° de mes: ";
+	Leer mes;
+	Escribir "Ingresar año: ";
+	Leer año;
+	
+	Segun mes hacer
+		1:
+			si (fecha<=31) Entonces
+				Escribir "Fecha correcta " fecha "/" mes "/" año
+			SiNo
+				Mostrar "Fecha incorrecta"
+			FinSi
+		2:
+			si (fecha<=28) Entonces
+				Escribir "Fecha correcta " fecha "/" mes "/" año
+			SiNo
+				Mostrar "Fecha incorrecta"
+			FinSi
+		3:
+			si (fecha<=31) Entonces
+				Escribir "Fecha correcta " fecha "/" mes "/" año
+			SiNo
+				Mostrar "Fecha incorrecta"
+			FinSi
+		4:
+			si (fecha<=30) Entonces
+				Escribir "Fecha correcta " fecha "/" mes "/" año
+			SiNo
+				Mostrar "Fecha incorrecta"
+			FinSi
+		5:
+			si (fecha<=31) Entonces
+				Escribir "Fecha correcta " fecha "/" mes "/" año
+			SiNo
+				Mostrar "Fecha incorrecta"
+			FinSi
+		6:
+			si (fecha<=30) Entonces
+				Escribir "Fecha correcta " fecha "/" mes "/" año
+			SiNo
+				Mostrar "Fecha incorrecta"
+			FinSi
+		7:
+			si (fecha<=31) Entonces
+				Escribir "Fecha correcta " fecha "/" mes "/" año
+			SiNo
+				Mostrar "Fecha incorrecta"
+			FinSi
+		8:
+			si (fecha<=31) Entonces
+				Escribir "Fecha correcta " fecha "/" mes "/" año
+			SiNo
+				Mostrar "Fecha incorrecta"
+			FinSi
+		9:
+			si (fecha<=30) Entonces
+				Escribir "Fecha correcta " fecha "/" mes "/" año
+			SiNo
+				Mostrar "Fecha incorrecta"
+			FinSi
+		10:
+			si (fecha<=31) Entonces
+				Escribir "Fecha correcta " fecha "/" mes "/" año
+			SiNo
+				Mostrar "Fecha incorrecta"
+			FinSi
+		11:
+			si (fecha<=30) Entonces
+				Escribir "Fecha correcta " fecha "/" mes "/" año
+			SiNo
+				Mostrar "Fecha incorrecta"
+			FinSi
+		12:
+			si (fecha<=31) Entonces
+				Escribir "Fecha correcta " fecha "/" mes "/" año
+			SiNo
+				Mostrar "Fecha incorrecta"
+			FinSi
+			
+		De Otro Modo:
+			Escribir "Errpr, ._._._ Error"
+	FinSegun
+FinProceso
