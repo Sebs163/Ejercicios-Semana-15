@@ -1,0 +1,63 @@
+Proceso Ejercicio_5
+	
+	Definir fecha, num Como Entero;
+	
+	Escribir "Escriba una fecha del 1-365";
+	Leer fecha;
+	
+	si (fecha<=59) Entonces
+		num=fecha-31
+		Escribir "Esta fecha corresponde al: ",num," de Febrero"
+	SiNo
+		si(fecha<=90) Entonces
+			num=fecha-59
+			Escribir "Esta fecha corresponde al: ",num," de Marzo"
+		SiNo
+			si(fecha<=120) Entonces
+				num=fecha-90
+				Escribir "Esta fecha corresponde al: ",num," de Abril"
+			SiNo
+				si(fecha<=151) Entonces
+					num=fecha-120
+					Escribir "Esta fecha corresponde al: ",num," de Mayo"
+				SiNo
+					si(fecha<=181) Entonces
+						num=fecha-151
+						Escribir "Esta fecha corresponde al: ",num," de Junio"
+					SiNo
+						si(fecha<=212) Entonces
+							num=fecha-181
+							Escribir "Esta fecha corresponde al: ",num," de Julio"
+						SiNo
+							si(fecha<=243) Entonces
+								num=fecha-212
+								Escribir "Esta fecha corresponde al: ",num," de Agosto"
+							SiNo
+								si(fecha<=273) Entonces
+									num=fecha-243
+									Escribir "Esta fecha corresponde al: ",num," de Septiembre"
+								SiNo
+									si(fecha<=304) Entonces
+										num=fecha-273
+										Escribir "Esta fecha corresponde al: ",num," de Octubre"
+									SiNo
+										si(fecha<=334) Entonces
+											num=fecha-304
+											Escribir "Esta fecha corresponde al: ",num," de Noviembre"
+										SiNo
+											si(fechaz=365) Entonces
+												num=fecha-334
+												Escribir "Esta fecha corresponde al: ",num," de Diciembre"
+											FinSi
+										FinSi
+									FinSi
+								FinSi
+							FinSi
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+	
+FinProceso
